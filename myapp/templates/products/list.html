@@ -1,0 +1,15 @@
+<h1>Products</h1>
+
+<table style="border: black solid 10px">
+    <tr style="border-bottom: black solid 5px">
+        <th style="padding: 5px">Game</th>
+        <th style="padding: 5px">Price</th>
+    </tr>
+
+    {% for product in products %}
+    <tr>
+        <td style="padding: 5px; border: 1px solid black;"><a href="{% url 'product_detail' product.id %}">{{ product.name }}</a></td>
+        <td style="padding: 5px; border: 1px solid black;">${{ product.price }}</td>
+    </tr>
+    {% endfor %}
+</table>
