@@ -1,0 +1,38 @@
+[
+    {
+        "model": "myapp.product",
+        "pk": 1,
+        "fields": {
+            "name": "Persona 4",
+            "price": 19.99,
+            "description": "A coming of age story that sets the protagonist and his friends on a journey kickstarted by a chain of serial murders. Explore meeting kindred spirits, feelings of belonging, and even confronting the darker sides of one’s self."
+        }
+    },
+    {
+        "model": "myapp.product",
+        "pk": 2,
+        "fields": {
+            "name": "Monster Hunter: World",
+            "price": 29.99,
+            "description": "Welcome to a new world! Take on the role of a hunter and slay ferocious monsters in a living, breathing ecosystem where you can use the landscape and its diverse inhabitants to get the upper hand. Hunt alone or in co-op with up to three other players, and use materials collected from fallen foes to craft new gear and take on even bigger, badder beasts!"
+        }
+    },
+    {
+        "model": "myapp.product",
+        "pk": 3,
+        "fields": {
+            "name": "GUILTY GEAR -STRIVE-",
+            "price": 39.99,
+            "description": "Guilty Gear -Strive- is the latest entry in the critically acclaimed Guilty Gear fighting game franchise. Created by Daisuke Ishiwatari and developed by Arc System Works, “Guilty Gear -Strive- upholds the series’ reputation for a high octane soundtrack, groundbreaking hybrid 2D/3D cell-shaded graphics and intense, rewarding gameplay."
+        }
+    },
+    {
+        "model": "myapp.product",
+        "pk": 4,
+        "fields": {
+            "name": "Apollo Justice: Ace Attorney Trilogy",
+            "price": 49.99,
+            "description": "Join rookie attorney Apollo Justice and his mentor, the legendary Phoenix Wright, in this collection of 3 games! This title features the 14 episodes of Apollo Justice: Ace Attorney, Phoenix Wright: Ace Attorney - Dual Destinies, and Phoenix Wright: Ace Attorney - Spirit of Justice, and the 2 previously DLC-only Special Episodes for a total of 16 episodes!"
+        }
+    }
+]
